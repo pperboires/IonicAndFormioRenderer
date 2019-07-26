@@ -1,9 +1,15 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Tab Two
+      Form.io
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+
+  <div  style="padding: 10px;">
+    <formio (submit)="onSubmit($event)" [form]="form"></formio>
+  </div>
+
+</ion-content>

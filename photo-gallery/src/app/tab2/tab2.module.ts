@@ -4,9 +4,11 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Tab2Page } from './tab2.page';
+import { FormioModule } from 'angular-formio';
 
 @NgModule({
   imports: [
+    FormioModule,
     IonicModule,
     CommonModule,
     FormsModule,
