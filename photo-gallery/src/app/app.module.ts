@@ -11,6 +11,11 @@ import { AppComponent } from './app.component';
 
 import { FormioModule } from 'angular-formio';
 
+import './components/editForm/DomainSelect.edit.data'
+import './components/editForm/DomainSelect.edit.validation'
+import './components/DomainSelectForm';
+import './components/DomainSelect';
+
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
